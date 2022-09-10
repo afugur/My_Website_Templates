@@ -11,5 +11,5 @@ Here I will create Website Templates.
 
 |Sl.No| Template Name  | Live Example |
 |-----|----------------|--------------|
-|  01  | First Website                                                  |[first example](https://afugur.github.io/My_Website_Templates/First_Example/)|	                                                  
+|  01  | First Website                                                  |[first web example](https://afugur.github.io/My_Website_Templates/First_Web/)|	                                                  
 |  02  | Rocket Website                    |[rocket example](https://afugur.github.io/My_Website_Templates/rocket_website/)|	   
