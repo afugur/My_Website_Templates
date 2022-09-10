@@ -1,0 +1,671 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.blackpage{
+    background-color: #000;
+    height: 100vh;
+}
+.mainrocket{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -14vw 41vh 1px 2px #fff,34vw -49vh 1px 3px #fff,17vw 9vh 1px 2px #fff,-36vw 17vh 0px 3px #fff,15vw 8vh 3px 2px #fff,8vw 33vh 3px 3px #fff,-1vw -40vh 0px 2px #fff,22vw 33vh 1px 1px #fff,48vw -19vh 2px 1px #fff,22vw 28vh 3px 3px #fff,-3vw -36vh 0px 3px #fff,9vw 44vh 3px 0px #fff,-44vw 11vh 0px 2px #fff,6vw -9vh 2px 0px #fff,-29vw 0vh 2px 2px #fff,-28vw -6vh 1px 3px #fff,1vw -16vh 0px 1px #fff,-27vw 27vh 3px 3px #fff,-2vw 40vh 3px 3px #fff,45vw -41vh 2px 0px #fff,19vw -30vh 2px 1px #fff,15vw 37vh 1px 2px #fff,41vw -11vh 2px 1px #fff,-41vw -16vh 2px 1px #fff,1vw -31vh 2px 3px #fff,-16vw 34vh 2px 3px #fff,-14vw -7vh 2px 0px #fff,-50vw 25vh 2px 2px #fff,-41vw 5vh 2px 3px #fff,40vw 38vh 0px 1px #fff,41vw 20vh 2px 1px #fff,13vw 9vh 3px 2px #fff,-41vw -24vh 0px 3px #fff,17vw 3vh 0px 2px #fff,-46vw 19vh 1px 2px #fff,26vw 11vh 2px 0px #fff,28vw -17vh 0px 0px #fff,-27vw 34vh 2px 3px #fff,-7vw 37vh 0px 0px #fff,33vw -14vh 3px 2px #fff,-5vw -19vh 3px 0px #fff,32vw -16vh 0px 3px #fff,47vw -47vh 0px 0px #fff,-11vw 22vh 3px 0px #fff,14vw -29vh 3px 1px #fff,-35vw -22vh 1px 0px #fff,-48vw -36vh 2px 1px #fff,17vw 26vh 2px 2px #fff,29vw -2vh 3px 3px #fff,8vw -23vh 1px 0px #fff,49vw 22vh 2px 3px #fff,9vw 2vh 3px 2px #fff,7vw 39vh 3px 3px #fff,-12vw -2vh 0px 3px #fff,-23vw -1vh 1px 2px #fff,27vw 6vh 3px 1px #fff,21vw 45vh 0px 0px #fff,-26vw 48vh 0px 2px #fff,-5vw -47vh 0px 2px #fff,33vw -47vh 2px 0px #fff,-30vw 2vh 1px 3px #fff,-37vw -21vh 3px 2px #fff,26vw 42vh 1px 2px #fff,-37vw 33vh 1px 2px #fff,33vw -41vh 0px 3px #fff,38vw -20vh 3px 0px #fff,46vw -7vh 3px 0px #fff,31vw 48vh 0px 1px #fff,-2vw -45vh 0px 1px #fff,-40vw -19vh 1px 1px #fff,-34vw -2vh 0px 3px #fff,-44vw 6vh 1px 1px #fff,27vw 39vh 1px 0px #fff,-20vw -41vh 3px 1px #fff,-6vw 6vh 3px 1px #fff,43vw 31vh 1px 3px #fff,-3vw -15vh 0px 1px #fff,49vw 18vh 1px 3px #fff,3vw 44vh 2px 3px #fff,-39vw -28vh 3px 3px #fff,19vw 43vh 1px 3px #fff,14vw -1vh 1px 3px #fff,-39vw 16vh 1px 1px #fff,35vw 30vh 3px 3px #fff,23vw -2vh 2px 3px #fff,7vw -33vh 2px 0px #fff,-19vw 34vh 1px 1px #fff,-49vw -33vh 1px 2px #fff,41vw -25vh 2px 0px #fff,-14vw 27vh 1px 3px #fff,15vw 0vh 2px 1px #fff,-22vw -26vh 3px 0px #fff,-23vw 14vh 2px 1px #fff,-1vw -23vh 2px 2px #fff,23vw 18vh 0px 3px #fff,25vw 7vh 1px 2px #fff,24vw 3vh 1px 1px #fff,8vw -24vh 2px 2px #fff,6vw -31vh 1px 0px #fff,13vw 23vh 3px 2px #fff,31vw 17vh 3px 0px #fff,3vw 16vh 2px 1px #fff,-7vw -11vh 0px 0px #fff,37vw 43vh 1px 0px #fff,-50vw 46vh 0px 2px #fff,-49vw 14vh 2px 0px #fff,-30vw -49vh 2px 3px #fff,27vw -13vh 3px 1px #fff,37vw -10vh 0px 1px #fff,-24vw -33vh 1px 3px #fff,32vw 49vh 2px 1px #fff,-37vw -40vh 3px 1px #fff,-37vw -28vh 3px 2px #fff,-18vw 32vh 0px 2px #fff,-12vw -21vh 0px 2px #fff,-35vw 20vh 1px 0px #fff,23vw -28vh 0px 2px #fff,42vw -46vh 0px 2px #fff,-27vw -26vh 1px 3px #fff,30vw 11vh 0px 1px #fff,43vw 35vh 2px 1px #fff,15vw -35vh 1px 3px #fff,-13vw -7vh 2px 0px #fff,28vw 28vh 0px 1px #fff,-9vw 48vh 1px 1px #fff,-22vw -37vh 3px 1px #fff,-38vw 11vh 3px 3px #fff,9vw 35vh 2px 3px #fff,0vw -16vh 1px 2px #fff,48vw -46vh 3px 0px #fff,3vw 18vh 3px 0px #fff,10vw -17vh 0px 2px #fff,-27vw 42vh 2px 1px #fff,50vw 45vh 0px 3px #fff,-20vw 15vh 3px 2px #fff,-9vw -10vh 0px 0px #fff,-16vw -50vh 0px 2px #fff,31vw 10vh 2px 3px #fff,4vw -23vh 1px 3px #fff,2vw 15vh 3px 3px #fff,-16vw 41vh 2px 0px #fff,-14vw 37vh 2px 0px #fff,-29vw 29vh 0px 2px #fff,46vw -50vh 1px 2px #fff,47vw 10vh 0px 2px #fff,38vw -30vh 1px 0px #fff,4vw 13vh 3px 3px #fff,-37vw -22vh 3px 2px #fff,37vw 13vh 3px 3px #fff,7vw -38vh 2px 3px #fff,-41vw 9vh 2px 2px #fff,-7vw -50vh 0px 2px #fff,-38vw 9vh 0px 2px #fff,-6vw -32vh 2px 1px #fff,-22vw -26vh 3px 3px #fff,2vw -23vh 2px 0px #fff,41vw 29vh 3px 3px #fff,-24vw -36vh 0px 1px #fff,40vw -19vh 0px 2px #fff,-48vw -6vh 2px 3px #fff,1vw 39vh 0px 3px #fff,9vw -11vh 3px 1px #fff,29vw 21vh 0px 3px #fff,-4vw -35vh 2px 1px #fff,-49vw 33vh 1px 2px #fff,-37vw -42vh 2px 3px #fff,-32vw -14vh 3px 0px #fff,-23vw -17vh 3px 0px #fff,-5vw -42vh 3px 3px #fff,-37vw 40vh 3px 1px #fff,-34vw -29vh 0px 0px #fff,17vw 6vh 2px 1px #fff,-13vw 2vh 0px 0px #fff,40vw -11vh 3px 0px #fff,2vw -13vh 1px 0px #fff,-6vw -49vh 1px 1px #fff,18vw -50vh 3px 1px #fff,1vw -10vh 1px 2px #fff,40vw -29vh 3px 2px #fff,25vw -43vh 0px 3px #fff,34vw 9vh 0px 0px #fff,-25vw 21vh 1px 1px #fff,25vw -48vh 3px 3px #fff,47vw 0vh 3px 2px #fff,45vw -6vh 0px 1px #fff,36vw 41vh 2px 3px #fff,41vw 15vh 1px 1px #fff,32vw 6vh 0px 1px #fff,10vw -5vh 3px 0px #fff,38vw 40vh 3px 1px #fff,50vw -22vh 2px 3px #fff,-9vw -38vh 1px 0px #fff,26vw 13vh 1px 0px #fff,24vw -11vh 0px 0px #fff,-33vw -2vh 3px 0px #fff,27vw -41vh 1px 1px #fff,-21vw -5vh 0px 2px #fff,49vw -11vh 3px 1px #fff,-18vw 26vh 1px 0px #fff,16vw -11vh 1px 0px #fff;
+    animation: zoom 10s alternate infinite ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+0%{
+    transform: scale(1);
+}
+100%{
+    transform: scale(1.2);
+}
+}
+
+
+.text-box {
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+
+.firstrocket {
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    text-align: left;
+    animation: rocketmove 8s infinite ;
+    animation-fill-mode: forwards;
+}
+
+.firstrocket img{
+    width: 150px;
+    height: 300px;
+    transform: rotate(90deg);
+
+}
+
+
+@keyframes rocketmove {
+
+    0% {
+        top: 58%;
+        left: 5%;
+
+    }
+
+    25% {
+
+        top: 58%;
+        left: 80%;
+        transform: rotate(-90deg);
+    }
+
+    
+    50% {
+
+        top: 2%;
+        left: 80%;
+        transform: rotate(180deg);
+    }
+
+    75% {
+        top: 2%;
+        left: 5%;
+        transform: rotate(90deg);
+
+    }
+}
+
+/* ------------ Section Main Page ------------------ */
+
+.mainpage{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,1.4,30,0.4),rgba(1,9,30,0.7)),url("../assets/main_rocket.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    position: relative;
+}
+
+nav {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 15vh;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    width: 100%;
+}
+
+nav ul li:hover{
+
+    opacity: 0.7;
+}
+
+.logo-text a {
+    font-size: 64px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 40px;
+    left:10px;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.mainpage{
+    margin-top: 100px;
+}
+
+nav a img{
+    height: 165px;
+    width: 165px;
+    padding-left: 45%;
+    transition: 1s;
+}
+
+
+nav a img:hover{
+    margin-bottom: 60%;
+    margin-left: 10px;
+    transition: 1s;
+    transform: rotate(45deg) scale(1.6);
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.menu {
+    background-color: black;
+    height: 50px;
+    position: sticky;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    color: #fff;
+    padding:0 30px;
+    line-height: 50px;
+}
+
+.menu ul {
+background: black;
+width: 200px;
+position: absolute;
+left: 0;
+opacity: 0;
+visibility: hidden;
+transition: 0.25s;
+}
+
+
+.menu ul li a {
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+
+.menu>li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+.mainpage-box {
+
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-82%,-80%);
+    text-align: center;
+
+}
+
+.mainpage-box h1 {
+    font-size: 60px;
+}
+
+.mainpage-box a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: relative;
+    padding: 8px 80px;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainpage-box a:hover {
+    background-color: rgba(168, 125, 44, 0.63);
+    color: white;
+    transition: 1s;
+}
+
+
+/* ------------ Section Sales Page ------------ */
+
+.sales{
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 10vh;
+    color: white;
+}
+
+.sales h1{
+    font-size: 72px;
+}
+
+.sales p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.rocket-col {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    flex-basis: 20%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.rocket-col img {
+    width: 20%;
+    height: 20%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+
+}
+
+.layer:hover{
+    background: rgba(236, 81, 81, 0.788);
+}
+
+.layer h3{
+    width: 70%;
+    padding-left: 20%;
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    transform: translate(5%,95%);
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+/* About Us Page*/
+
+
+.abouts {
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 10vh;
+    color: white;
+}
+
+.about-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-box{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.abouts h1{
+    font-size: 90px;
+}
+
+.abouts p{
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.abouts img {
+    width: 70%;
+    height: 100%;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+.about-name {
+    position: relative;
+    width: 25%;
+    height: 50%;
+    font-size: 36px;
+    margin: 5px;
+}
+
+
+
+.about-name p {
+    font-size: 20px;
+}
+
+
+.about-box:hover {
+    transform: scale(1.1);
+}
+
+
+/* Contact Us */
+
+
+.contact-us {
+
+    width: 80%;
+    height: 40vh;
+    margin-top: 12vh;
+    color: white;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.contact-us h3 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+hr {
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.contact {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.contact-description {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+.contact-description textarea {
+
+    height: 200px;
+    width: 300px;
+    font-size: 12;
+    
+}
+
+.contact button {
+    height: 50px; 
+    width: 300px;
+    transition: 1s;
+}
+
+
+.contact button:hover{
+    background-color: rgb(107, 106, 47);
+    border: 1px solid white;
+}
+
+.contact button {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    font-size: 18px;
+}
+
+.launchrocket {
+    position: absolute;
+    margin: auto;
+    bottom: 0%;
+    left: 25%;
+    transform: translateY(30%) rotate(90deg);
+
+}
+
+.launchrocket img{
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+    animation: vibrate 2s alternate infinite;
+
+}
+
+.launchrocket p {
+    transform: rotate(270deg);
+    font-size: 24px;
+    margin-left: 30%;
+    display: none;
+}
+
+@keyframes vibrate {
+
+    25% {
+        transform: translateY(-0.5px) translateX(-2px)
+    }
+
+    50% {
+        transform: translateY(0.5px) translateX(2px)
+    }
+
+    75% {
+        transform: translateY(-0.5px) translateX(2px)
+    }
+
+    100% {
+        transform: translateY(-0.5px) translateX(-2px)
+    }
+
+}
+
+
+.launched {
+    position: absolute;
+    margin: auto;
+    bottom: 0%;
+    left: 25%;
+    transform: translateY(30%) rotate(90deg);
+}
+
+.launched img{
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+    animation: fire 1s infinite;
+}
+
+.launched p {
+    transform: rotate(45deg);
+    font-size: 24px;
+    margin-left: 30%;
+    display: block;
+    animation: firetext 1s infinite;
+}
+
+
+@keyframes fire {
+
+    from {
+        opacity:1;
+        transform: translateY(-25%) translateX(-2px);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-200%) translateX(2px);
+
+    }
+
+}
+
+@keyframes firetext {
+    from {
+        opacity:1;
+        font-size: 24px;
+        transform: translateY(-25%) translateY(-2px) rotate(-45deg);
+    }
+
+    to {
+        font-size: 50px;
+        opacity: 0;
+        transform: translateY(-200%) translateY(2px) rotate(-90deg);
+    }
+}
+
+
+/* 1150px */
+
+@media (max-width:1150px) {
+
+    .text-box h1{
+        font-size: 32px;
+    }
+
+    .firstrocket img{
+        width: 75px;
+        height: 150px;
+
+   }
+
+   .mainpage-box {
+
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;}
+.mainpage-box h1 {
+    font-size: 60px;
+}
+
+.sales .row {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%,0%);
+}
+
+.rocket-col {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    flex-basis: 30%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.rocket-col img {
+    width: 40%;
+    height: 40%;
+    display: block;
+}
+
+.layer{
+
+    position: absolute;
+    transform: translateX(10px);
+}
+
+.layer h3{
+
+
+    font-size: 50px;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-name {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.launchrocket {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-top: 20%;
+    display: none;
+}
+
+.launched img{
+    width: 100%;
+}
+
+.contact-row{
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.contact-description {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+
+
+}
+@media (max-width:700px) {
+
+    .text-box h1{
+        font-size: 14px;
+    }
+
+    .firstrocket img{
+        width: 50px;
+        height: 100px;
+
+
+    }
+
+
+
+    
+.layer h3{
+
+    font-size: 30px;
+}
+
+
+
+}
