@@ -12,4 +12,4 @@ Here I will create Website Templates.
 |Sl.No| Template Name  | Live Example |
 |-----|----------------|--------------|
 |  01  | Rocket Website                                                  |[rocket example](https://afugur.github.io/My_Website_Templates/rocket_website/)|	                                                  
-|  02  | above-educational-bootstrap-responsive-template	                  |[live example](https://learning-zone.github.io/website-templates/above-educational-bootstrap-responsive-template/)|	 
+|  02  | Rocket Website                    |[rocket example](https://afugur.github.io/rocket_website/)|	 
