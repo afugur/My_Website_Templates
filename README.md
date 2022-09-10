@@ -1,7 +1,7 @@
 # My Website Templates
 Here I will create Website Templates.
 
-## HTML5 Website Templates (For Begginers and Professionals)
+## HTML5 and CSS Website Templates
  
  ⚝ if you like the project. pull request are highly appreciated.*
 
